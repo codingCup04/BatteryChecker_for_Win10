@@ -18,11 +18,11 @@ while True:
         toaster.show_toast(
                     "Low battery notifications...",
                     f"Warning: you have {percent}{a} left.",
-                    duration=delay
+                    duration=5
                    )
         ch = False
     elif ch == False:
-        time.sleep(300)
+        time.sleep(delay)
 """
 toaster.show_toast(
                     "Low battery notifications...",
